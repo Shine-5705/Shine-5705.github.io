@@ -110,6 +110,17 @@
 		.zoom-effect:hover {
 			transform: scale(1.1);
 		}
+		.business-quant-link {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		.business-quant-link:hover {
+			color: #0077b5; /* LinkedIn blue */
+			text-decoration: underline;
+		}
+
+
 	</style>
 
 
@@ -165,7 +176,9 @@
 									// Create an array of typing text
 									const typingTexts = [
 										'Engineering Student  ',
+										'Machine Learning Intern  ',
 										'Technical Coordinator  ',
+										'Data Science Intern  '
 									];
 
 									// Create a function to display the typing animation for a given text
@@ -353,11 +366,49 @@
 
 			<div class="row">
 				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">Drifko</span>
+					<div class="resume-wrap ftco-animate" data-url="URL_OF_COMPLETION_LETTER_1">
+						<span class="date">
+							<a href="https://www.linkedin.com/company/business-quant/" target="_blank" class="business-quant-link">Business Quant</a>
+						</span>
+						<h2> Machine Learning (OCR) Intern</h2>
+						<span class="position">June 2024 - Present</span>
+					<!--	<p class="mt-4">Drifko: Navigating Your Digital Future with Tailored Technology Solutions-->
+						<ul>
+							<li>Identify tabular data in images using OCR models (ex. PaddleOCR, Tesseract amongst others)</li>
+							<li>Improve computer vision model performance using deep learning techniques</li>
+						</ul>
+
+						</p>
+					</div>s
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate" data-url="URL_OF_COMPLETION_LETTER_1">
+						<span class="date">
+							<a href="https://www.linkedin.com/company/enshrine-global-systems/" target="_blank" class="business-quant-link">Enshrine Global Systems</a>
+						</span>
+						<h2>Data Science Intern</h2>
+						<span class="position">July 2024 - Present</span>
+					<!--	<p class="mt-4">Drifko: Navigating Your Digital Future with Tailored Technology Solutions-->
+						<ul>
+							<li>Develop LLM (OpenAI, AWS Bedrock)+ Selenium modules using Python</li>
+							<li>Develop AI (LLM) Agents (Llama-Index, Lang chain, Crew)</li>
+						</ul>
+
+						</p>
+					</div>	
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate" data-url="URL_OF_COMPLETION_LETTER_1">
+						<span class="date">
+							<a href="https://www.linkedin.com/company/drifko" target="_blank" class="business-quant-link">Drifko</a>
+						</span>
 						<h2>AI/ML Developer Intern</h2>
-						<span class="position">April 2024 - Present</span>
-						<p class="mt-4">Drifko: Navigating Your Digital Future with Tailored Technology Solutions
+						<span class="position">April - July 2024</span>
+						<!--<p class="mt-4">Drifko: Navigating Your Digital Future with Tailored Technology Solutions-->
 						<ul>
 							<li>Designed and implemented chatbots using Rasa and Chainlit frameworks, leveraging large
 								language models (LLMs) to facilitate natural and intuitive user interactions.</li>
@@ -371,11 +422,13 @@
 				</div>
 
 				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">NULLCLASS</span>
-						<h2>Data Science training</h2>
-						<span class="position">March 2024</span>
-						<p class="mt-4">NULLCLASS: bridge the gap between knowledge and application to gain real value.
+					<div class="resume-wrap ftco-animate" data-url="https://www.nullclass.com/certificates/65ea95241257f31a3705cbd4">
+						<span class="date">
+							<a href="https://www.linkedin.com/company/nullclass/" target="_blank" class="business-quant-link">NULLCLASS</a>
+						</span>
+						<h2>Data Science Intern</h2>
+						<span class="position">February - March 2024</span>
+						<!--<p class="mt-4">NULLCLASS: bridge the gap between knowledge and application to gain real value.-->
 						<ul>
 							<li>Built a real-time translation app from scratch, integrating state-of-the-art machine
 								translation models to facilitate seamless communication across languages.</li>
@@ -552,7 +605,7 @@
 				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18">
 						<div class="text">
-							<strong class="number" data-number="10">0</strong>
+							<strong class="number" data-number="15">0</strong>
 							<span>Projects</span>
 						</div>
 					</div>
@@ -560,9 +613,9 @@
 				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18">
 						<div class="text">
-							<strong class="number" data-number="200">0</strong>
+							<strong class="number" data-number="300">0</strong>
 							<span>DSA Questions</span>
-						</div>
+						</div>	
 					</div>
 				</div>
 				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
@@ -711,7 +764,7 @@
 	<script src="js/aos.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
 	<script src="js/scrollax.min.js"></script>
-
+	<script src="js/transition.js"></script>
 	<script src="js/main.js"></script>
 
 </body>
